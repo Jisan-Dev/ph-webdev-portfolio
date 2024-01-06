@@ -143,4 +143,27 @@ nav a {
 
 .about-section-description {
   max-width: 827px;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info-container > .about-info {
+  text-align: center;
+}
+
+.about-info > .inifo-title {
+  color: var(--dark-03);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.about-info > .inifo-description {
+  color: var(--dark-02);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
