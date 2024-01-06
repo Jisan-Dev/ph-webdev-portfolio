@@ -1,0 +1,65 @@
+/* Google font - open sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Common Shared styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --primary-color: #fd6e0a;
+  --dark-01: #181818;
+  --dark-02: #474747;
+  --white-color: #fff;
+}
+
+.primary-color-text {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  cursor: pointer;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  width: 150px;
+  height: 64px;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: var(--dark-01);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav > ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: var(--dark-02);
+}
