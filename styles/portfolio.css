@@ -12,6 +12,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+hr {
+  width: 558px;
+  margin-bottom: 30px;
+}
+
 :root {
   --primary-bgcolor: #fff8f3;
   --primary-color: #fd6e0a;
@@ -55,6 +60,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
+}
+
+.btn-container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* header related styles */
@@ -181,6 +192,7 @@ nav a {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto 130px;
+  flex-wrap: wrap;
 }
 .skills-container .skill {
   padding: 33px;
@@ -203,4 +215,45 @@ nav a {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+/* resume section */
+section#resume-section {
+  padding-bottom: 113px;
+}
+
+.resume-column-container {
+  margin: 113px auto 0;
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+}
+
+.resume-column > .resume-column-title {
+  color: var(--dark-02);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-column > .resume-item {
+  max-width: 511px;
+}
+.resume-column > .resume-item > .resume-item-heading {
+  color: var(--dark-02);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-column > .resume-item > .resume-item-subheading {
+  color: var(--dark-03);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-column > .resume-item > .resume-item-description {
+  color: var(--Dark-03);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 30px;
 }
