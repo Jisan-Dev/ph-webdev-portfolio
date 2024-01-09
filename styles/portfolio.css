@@ -41,12 +41,12 @@ hr {
   line-height: normal;
   padding: 18px 36px;
   margin-right: 10px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
   background: transparent;
   color: #fd6e0a;
-  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
 }
 
 .btn-primary-outline {
