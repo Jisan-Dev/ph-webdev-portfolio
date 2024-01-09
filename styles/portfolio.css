@@ -50,12 +50,11 @@ hr {
 }
 
 .btn-primary-outline {
-  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
   background: transparent;
   color: var(--primary-color);
 }
 .btn-primary-outline:hover {
-  border: none;
   background: #fd6e0a;
   color: var(--white-color);
 }
