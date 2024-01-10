@@ -405,14 +405,22 @@ footer {
   }
   header .banner-content {
     padding-left: 20px;
+    margin-top: 28px;
   }
   header .rotated-side-image {
-    position: absolute;
-    left: 0;
-    top: -129px;
-    height: 110%;
+    display: none;
   }
   header .banner-image {
     width: 100%;
+  }
+  nav {
+    padding: 10px 20px;
+  }
+  nav > ul {
+    flex-direction: column;
+    gap: 17px;
+    position: absolute;
+    right: 0;
+    top: 30px;
   }
 }
