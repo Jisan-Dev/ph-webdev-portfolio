@@ -332,3 +332,25 @@ footer {
 #footer > .footer-column:nth-child(2) {
   margin-left: 117px;
 }
+
+.hide {
+  display: none;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 576px) {
+  .section-description {
+    padding: 0 20px;
+  }
+
+  .skills-container {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skills-container .skill {
+    width: 80%;
+  }
+}
