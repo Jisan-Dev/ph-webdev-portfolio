@@ -13,7 +13,7 @@ body {
 }
 
 hr {
-  width: 558px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -360,5 +360,21 @@ footer {
     flex-direction: column;
     padding: 0 20px;
     margin: 36px auto 0;
+  }
+
+  /* Footer section */
+  #footer {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  #footer > .footer-column:nth-child(2) {
+    margin: 10px 0;
+  }
+  #footer .section-description {
+    padding: 0px;
+  }
+  #footer input,
+  #footer textarea#message {
+    width: 90%;
   }
 }
