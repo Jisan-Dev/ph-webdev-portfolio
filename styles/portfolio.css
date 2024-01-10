@@ -367,6 +367,9 @@ footer {
   }
 
   /* Footer section */
+  footer {
+    padding: 60px 0;
+  }
   #footer {
     flex-direction: column;
     padding-left: 20px;
