@@ -337,13 +337,14 @@ footer {
   display: none;
 }
 
-/* responsive styles */
-
+/* RESPONSIVE STYLES */
 @media screen and (max-width: 576px) {
+  /* shared */
   .section-description {
     padding: 0 20px;
   }
 
+  /* What id section */
   .skills-container {
     justify-content: center;
     flex-direction: column;
@@ -352,5 +353,12 @@ footer {
 
   .skills-container .skill {
     width: 80%;
+  }
+
+  /* Resume section */
+  .resume-column-container {
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 36px auto 0;
   }
 }
