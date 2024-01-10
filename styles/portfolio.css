@@ -180,6 +180,7 @@ nav a {
 
 .about-info-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -352,7 +353,10 @@ footer {
   }
 
   .skills-container .skill {
-    width: 80%;
+    width: 90%;
+  }
+  .skill > .skill-description {
+    width: 100%;
   }
 
   /* Resume section */
@@ -376,5 +380,20 @@ footer {
   #footer input,
   #footer textarea#message {
     width: 90%;
+  }
+
+  /* ABout section */
+  .about {
+    padding: 130px 20px;
+  }
+  .about .section-description {
+    padding: 0;
+  }
+  .about-info-container {
+    justify-content: space-around;
+    gap: 14px;
+  }
+  .about-info-container > .about-info {
+    flex-basis: 44%;
   }
 }
