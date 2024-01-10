@@ -397,4 +397,22 @@ footer {
   .about-info-container > .about-info {
     flex-basis: 44%;
   }
+
+  /* Header section */
+  header .banner {
+    padding: 0px;
+    flex-direction: column;
+  }
+  header .banner-content {
+    padding-left: 20px;
+  }
+  header .rotated-side-image {
+    position: absolute;
+    left: 0;
+    top: -129px;
+    height: 110%;
+  }
+  header .banner-image {
+    width: 100%;
+  }
 }
