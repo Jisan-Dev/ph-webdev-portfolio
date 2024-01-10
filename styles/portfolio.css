@@ -385,6 +385,7 @@ footer {
   /* ABout section */
   .about {
     padding: 130px 20px;
+    margin: 0px auto;
   }
   .about .section-description {
     padding: 0;
